@@ -1,0 +1,35 @@
+<div class="row">
+
+    <div class="col-4">
+        
+        <div class="card">
+
+            <div class="card-body">
+                <h4 class="card-title">Temas</h4><hr>
+            </div>
+            <div class="r-panel-body">
+                    <ul id="themecolors" class="m-t-20">
+                        <li><b>Con el sidebar claro</b></li>
+                        <li><a (click)="cambiarColor('green')" class="selector green-theme" [ngClass]="{working: _SS.ajustes.tema == 'green'}">2</a></li>
+                        <li><a (click)="cambiarColor('default')" class="selector default-theme" [ngClass]="{working: _SS.ajustes.tema == 'default'}">1</a></li>
+                        <li><a (click)="cambiarColor('red')" class="selector red-theme" [ngClass]="{working:  _SS.ajustes.tema == 'red'}">3</a></li>
+                        <li><a (click)="cambiarColor('blue')" class="selector blue-theme" [ngClass]="{working: _SS.ajustes.tema == 'blue'}">4</a></li>
+                        <li><a (click)="cambiarColor('purple')" class="selector purple-theme" [ngClass]="{working: _SS.ajustes.tema == 'purple'}">5</a></li>
+                        <li><a (click)="cambiarColor('megna')" class="selector megna-theme" [ngClass]="{working: _SS.ajustes.tema == 'megna'}">6</a></li>
+                        
+                        <li class="d-block m-t-30"><b>Con el sidebar oscuro</b></li>
+                        <li><a (click)="cambiarColor('default-dark')" class="selector default-dark-theme" [ngClass]="{working: _SS.ajustes.tema == 'default-dark'}">7</a></li>
+                        <li><a (click)="cambiarColor('green-dark')" class="selector green-dark-theme" [ngClass]="{working: _SS.ajustes.tema == 'green-dark'}">8</a></li>
+                        <li><a (click)="cambiarColor('red-dark')" class="selector red-dark-theme" [ngClass]="{working: _SS.ajustes.tema == 'red-dark'}">9</a></li>
+                        <li><a (click)="cambiarColor('blue-dark')" class="selector blue-dark-theme" [ngClass]="{working: _SS.ajustes.tema == 'blue-dark'}">10</a></li>
+                        <li><a (click)="cambiarColor('purple-dark')" class="selector purple-dark-theme" [ngClass]="{working: _SS.ajustes.tema == 'purple-dark'}">11</a></li>
+                        <li><a (click)="cambiarColor('megna-dark')" class="selector megna-dark-theme" [ngClass]="{working: _SS.ajustes.tema == 'megna-dark'}">12</a></li>
+                    </ul>
+                
+            </div>
+        </div>
+
+    </div>
+
+</div>
+

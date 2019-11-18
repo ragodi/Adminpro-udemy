@@ -4,8 +4,11 @@ Author: Wrappixel
 Email: niravjoshi87@gmail.com
 File: js
 */
+
+function cargar_plugins(){
 $(function() {
     "use strict";
+    
     $(function() {
         $(".preloader").fadeOut();
     });
@@ -155,3 +158,5 @@ $(function() {
     });
 
 });
+
+}

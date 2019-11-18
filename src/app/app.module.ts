@@ -5,11 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 
+import { FormsModule } from '@angular/forms';
+
+// páginas
+import { PagesModule } from './pages/pages.module';
+
 // componentes
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
-import { PagesModule } from './pages/pages.module';
-import { FormsModule } from '@angular/forms';
+
+// servicios
+import { ServiceModule } from './services/service.module';
 
 @NgModule({
   declarations: [
@@ -22,9 +28,12 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     PagesModule,
     AppRoutingModule,
+    ServiceModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
