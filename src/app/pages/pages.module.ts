@@ -18,6 +18,8 @@ import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -30,7 +32,9 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
     PagesComponent,
     IncrementadorComponent,
     GraficoDonaComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromesasComponent,
+    RxjsComponent
   ],
   imports: [
     CommonModule,
